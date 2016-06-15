@@ -2,9 +2,11 @@
 var userName = prompt('Greetings!!! What is your name?');
 alert('Welcome ' + userName + ', glad you\'re here!');
 
-/*var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
+var counter = 0;
+var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
 if (answer1 === 'yes' || answer1 === 'y') {
   alert('Right! Well done.');
+  counter++;
 } else {
   alert('Wrong! Try again...');
 }
@@ -12,6 +14,7 @@ if (answer1 === 'yes' || answer1 === 'y') {
 var answer2 = prompt('Have I been playing guitar since I was 15?').toLowerCase();
 if (answer2 === 'yes' || answer2 === 'y') {
   alert('Correct! Well done!');
+  counter++;
 } else {
   alert('WRONG! How could you not know?');
 }
@@ -19,6 +22,7 @@ if (answer2 === 'yes' || answer2 === 'y') {
 var answer3 = prompt('Do I have 2 cats?').toLowerCase();
 if (answer3 === 'yes' || answer3 === 'y') {
   alert('Correct! Well done!');
+  counter++;
 } else {
   alert('WRONG!');
 }
@@ -26,6 +30,7 @@ if (answer3 === 'yes' || answer3 === 'y') {
 var answer4 = prompt('Do I hate the Sounders?').toLowerCase();
 if (answer4 === 'no' || answer4 === 'n') {
   alert('Correct! GO SOUNDERS!');
+  counter++;
 } else {
   alert('WRONG!');
 }
@@ -33,10 +38,10 @@ if (answer4 === 'no' || answer4 === 'n') {
 var answer5 = prompt('Do I manage a night club?').toLowerCase();
 if (answer5 === 'yes' || answer5 === 'y') {
   alert('Correct! I manage the Underground!');
+  counter++;
 } else {
   alert('WRONG!');
 }
-*/
 
 var numberGameGuesses = 0;
 while (numberGameGuesses < 4) {
@@ -44,6 +49,7 @@ while (numberGameGuesses < 4) {
   if (answer6 === 7) {
     alert('Correct! You are obviously strong with the force young padawan...');
     break;
+    counter++;
   } else if (answer6 < 7) {
     alert('Wrong! You\'re answer is too high!');
     numberGameGuesses++;
@@ -62,6 +68,7 @@ while (statesGuesses < 6) {
   var answer7 = prompt('What states have I lived in besides Washington? Please use state abbreviations for you\'re answer.').toUpperCase();
   if (statesLivedIn === statesLivedIn[0] || statesLivedIn === [1] || statesLivedIn === [2]) {
     alert('Correct! I have lived in that state!');
+    counter++;
     break;
   }
   else {
@@ -69,3 +76,4 @@ while (statesGuesses < 6) {
     statesGuesses++;
   }
 }
+alert('You got' + counter + ' out of 7 correct!');
