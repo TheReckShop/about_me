@@ -37,7 +37,7 @@ if (answer5 === 'yes' || answer5 === 'y') {
   alert('WRONG!');
 }
 */
-/*
+
 var numberGameGuesses = 0;
 while (numberGameGuesses < 4) {
   var answer6 = parseInt(prompt('What is my favorite number?'));
@@ -55,14 +55,17 @@ while (numberGameGuesses < 4) {
     numberGameGuesses++;
   }
 }
-*/
-var statesLivedIn = [AZ, LA, NY];
-var statesGuesses = 6;
+
+var statesLivedIn = ['AZ', 'LA', 'NY'];
+var statesGuesses = 0;
 while (statesGuesses < 6) {
-  var answer7 = statesLivedIn[1] || statesLivedIn[2] || statesLivedIn[3].toUpperCase();
+  var answer7 = prompt('What states have I lived in besides Washington? Please use state abbreviations for you\'re answer.').toUpperCase();
+  if (statesLivedIn === statesLivedIn[0] || statesLivedIn === [1] || statesLivedIn === [2]) {
     alert('Correct! I have lived in that state!');
     break;
-  } else {
-    alert('Wrong! Please try again!')
+  }
+  else {
+    alert('Sorry, you are incorrect!');
     statesGuesses++;
   }
+}
