@@ -44,16 +44,16 @@ if (answer5 === 'yes' || answer5 === 'y') {
 }
 
 var numberGameGuesses = 0;
-while (numberGameGuesses < 4) {
+while(numberGameGuesses < 4) {
   var answer6 = parseInt(prompt('What is my favorite number?'));
   if (answer6 === 7) {
     alert('Correct! You are obviously strong with the force young padawan...');
     break;
     counter++;
-  } else if (answer6 < 7) {
+  } else if(answer6 < 7) {
     alert('Wrong! You\'re answer is too high!');
     numberGameGuesses++;
-  } else if (answer6 > 7) {
+  } else if(answer6 > 7) {
     alert('You\'re answer is too low!');
     numberGameGuesses++;
   } else {
@@ -61,19 +61,20 @@ while (numberGameGuesses < 4) {
     numberGameGuesses++;
   }
 }
+//remeber you can move numberGameGuesses down one curly bracket so you don't have to repeat using it for each if else statement.
 
 var statesLivedIn = ['AZ', 'LA', 'NY'];
 var statesGuesses = 0;
-while (statesGuesses < 6) {
+while(statesGuesses < 6) {
   var answer7 = prompt('What states have I lived in besides Washington? Please use state abbreviations for you\'re answer.').toUpperCase();
-  if (answer7 === statesLivedIn[0] || answer7 === statesLivedIn[1] || answer7 === statesLivedIn[2]) {
+  if(answer7 === statesLivedIn[0] || answer7 === statesLivedIn[1] || answer7 === statesLivedIn[2]) {
     alert('Correct! I have lived in that state!');
     counter++;
     break;
-  }
-  else {
+  } else {
     alert('Sorry, you are incorrect!');
     statesGuesses++;
   }
 }
+//add a for loop to evaluate answer7 more efficiantly
 alert('You got' + counter + ' out of 7 correct!');
