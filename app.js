@@ -1,4 +1,4 @@
-/*use strict';
+'use strict';
 var userName = prompt('Greetings!!! What is your name?');
 alert('Welcome ' + userName + ', glad you\'re here!');
 
@@ -54,7 +54,8 @@ function q5() {var answer5 = prompt('Do I manage a night club?').toLowerCase();
     alert('WRONG!');
   }
 }
-q5();*/
+
+q5();
 
 function q6() {
 
@@ -79,19 +80,21 @@ function q6() {
 }
 q6();
 //remeber you can move numberGameGuesses down one curly bracket so you don't have to repeat using it for each if else statement.
-
-var statesLivedIn = ['AZ', 'LA', 'NY'];
-var statesGuesses = 0;
-while(statesGuesses < 6) {
-  var answer7 = prompt('What states have I lived in besides Washington? Please use state abbreviations for you\'re answer.').toUpperCase();
-  if(answer7 === statesLivedIn[0] || answer7 === statesLivedIn[1] || answer7 === statesLivedIn[2]) {
-    alert('Correct! I have lived in that state!');
-    counter++;
-    break;
-  } else {
-    alert('Sorry, you are incorrect!');
-    statesGuesses++;
+function q7() {
+  var statesLivedIn = ['AZ', 'LA', 'NY'];
+  var statesGuesses = 0;
+  while(statesGuesses < 6) {
+    var answer7 = prompt('What states have I lived in besides Washington? Please use state abbreviations for you\'re answer.').toUpperCase();
+    if(answer7 === statesLivedIn[0] || answer7 === statesLivedIn[1] || answer7 === statesLivedIn[2]) {
+      alert('Correct! I have lived in that state!');
+      counter++;
+      break;
+    } else {
+      alert('Sorry, you are incorrect!');
+      statesGuesses++;
+    }
   }
 }
+q7();
 //add a for loop to evaluate answer7 more efficiantly
 alert('You got' + counter + ' out of 7 correct!');
