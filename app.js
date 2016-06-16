@@ -66,7 +66,7 @@ var statesLivedIn = ['AZ', 'LA', 'NY'];
 var statesGuesses = 0;
 while (statesGuesses < 6) {
   var answer7 = prompt('What states have I lived in besides Washington? Please use state abbreviations for you\'re answer.').toUpperCase();
-  if (statesLivedIn === statesLivedIn[0] || statesLivedIn === [1] || statesLivedIn === [2]) {
+  if (answer7 === statesLivedIn[0] || answer7 === statesLivedIn[1] || answer7 === statesLivedIn[2]) {
     alert('Correct! I have lived in that state!');
     counter++;
     break;
