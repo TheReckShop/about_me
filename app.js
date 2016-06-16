@@ -30,14 +30,15 @@ function q3() {var answer3 = prompt('Do I have 2 cats?').toLowerCase();
   }
 }
 q3();
-var answer4 = prompt('Do I hate the Sounders?').toLowerCase();
-if (answer4 === 'no' || answer4 === 'n') {
-  alert('Correct! GO SOUNDERS!');
-  counter++;
-} else {
-  alert('WRONG!');
+function q4() {var answer4 = prompt('Do I hate the Sounders?').toLowerCase();
+  if (answer4 === 'no' || answer4 === 'n') {
+    alert('Correct! GO SOUNDERS!');
+    counter++;
+  } else {
+    alert('WRONG!');
+  }
 }
-
+q4();
 var answer5 = prompt('Do I manage a night club?').toLowerCase();
 if (answer5 === 'yes' || answer5 === 'y') {
   alert('Correct! I manage the Underground!');
