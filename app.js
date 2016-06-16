@@ -3,20 +3,23 @@ var userName = prompt('Greetings!!! What is your name?');
 alert('Welcome ' + userName + ', glad you\'re here!');
 
 var counter = 0;
-var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
-if (answer1 === 'yes' || answer1 === 'y') {
-  alert('Right! Well done.');
-  counter++;
-} else {
-  alert('Wrong! Try again...');
+function q1 () {var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
+  if (answer1 === 'yes' || answer1 === 'y') {
+    alert('Right! Well done.');
+    counter++;
+  } else {
+    alert('Wrong! Try again...');
+  }
 }
+q1();
 
-var answer2 = prompt('Have I been playing guitar since I was 15?').toLowerCase();
-if (answer2 === 'yes' || answer2 === 'y') {
-  alert('Correct! Well done!');
-  counter++;
-} else {
-  alert('WRONG! How could you not know?');
+function q2() { var answer2 = prompt('Have I been playing guitar since I was 15?').toLowerCase();
+  if (answer2 === 'yes' || answer2 === 'y') {
+    alert('Correct! Well done!');
+    counter++;
+  } else {
+    alert('WRONG! How could you not know?');
+  }
 }
 
 var answer3 = prompt('Do I have 2 cats?').toLowerCase();
