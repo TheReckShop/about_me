@@ -21,7 +21,7 @@ function q2() { var answer2 = prompt('Have I been playing guitar since I was 15?
     alert('WRONG! How could you not know?');
   }
 }
-
+q2();
 var answer3 = prompt('Do I have 2 cats?').toLowerCase();
 if (answer3 === 'yes' || answer3 === 'y') {
   alert('Correct! Well done!');
