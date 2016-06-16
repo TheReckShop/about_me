@@ -39,14 +39,15 @@ function q4() {var answer4 = prompt('Do I hate the Sounders?').toLowerCase();
   }
 }
 q4();
-var answer5 = prompt('Do I manage a night club?').toLowerCase();
-if (answer5 === 'yes' || answer5 === 'y') {
-  alert('Correct! I manage the Underground!');
-  counter++;
-} else {
-  alert('WRONG!');
+function q5() {var answer5 = prompt('Do I manage a night club?').toLowerCase();
+  if (answer5 === 'yes' || answer5 === 'y') {
+    alert('Correct! I manage the Underground!');
+    counter++;
+  } else {
+    alert('WRONG!');
+  }
 }
-
+q5();
 var numberGameGuesses = 0;
 while(numberGameGuesses < 4) {
   var answer6 = parseInt(prompt('What is my favorite number?'));
