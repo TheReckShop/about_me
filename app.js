@@ -12,7 +12,6 @@ function q1 () {var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase(
   }
 }
 q1();
-
 function q2() { var answer2 = prompt('Have I been playing guitar since I was 15?').toLowerCase();
   if (answer2 === 'yes' || answer2 === 'y') {
     alert('Correct! Well done!');
@@ -22,14 +21,15 @@ function q2() { var answer2 = prompt('Have I been playing guitar since I was 15?
   }
 }
 q2();
-var answer3 = prompt('Do I have 2 cats?').toLowerCase();
-if (answer3 === 'yes' || answer3 === 'y') {
-  alert('Correct! Well done!');
-  counter++;
-} else {
-  alert('WRONG!');
+function q3() {var answer3 = prompt('Do I have 2 cats?').toLowerCase();
+  if (answer3 === 'yes' || answer3 === 'y') {
+    alert('Correct! Well done!');
+    counter++;
+  } else {
+    alert('WRONG!');
+  }
 }
-
+q3();
 var answer4 = prompt('Do I hate the Sounders?').toLowerCase();
 if (answer4 === 'no' || answer4 === 'n') {
   alert('Correct! GO SOUNDERS!');
