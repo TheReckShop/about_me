@@ -1,7 +1,8 @@
 'use strict';
-var userName = false;
 
+var userName = false;
 for (userName = false; {('Greetings!!! What is your name?'){
+
 alert('Welcome ' + userName + ', glad you\'re here!');
 function intro() = for (var userName != true)
 alert('sorry bro try again!)
