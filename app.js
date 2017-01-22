@@ -1,18 +1,22 @@
 'use strict';
-var userName = prompt('Greetings!!! What is your name?');
+var userName = prompt('Greetings!!! What is your name?')
+console.log('OH NO! AHHHHHHHHHHHHH'\
+break;
 alert('Welcome ' + userName + ', glad you\'re here!');
-
+console.log(userName);
 var counter = 0;
-function q1 () {var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
+function q1 () alert{var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
   if (answer1 === 'yes' || answer1 === 'y') {
     alert('Right! Well done.');
     console.log('q1 Right!');
     counter++;
   } else {
     alert('Wrong! Try again...');
+  
   }
-  console.log('q1 wrong');
-}
+  console.log('q1 wrong');       
+    break; 
+  }  
 
 q1();
 
@@ -47,7 +51,7 @@ function q4() {var answer4 = prompt('Do I hate the Sounders?').toLowerCase();
     alert('Correct! GO SOUNDERS!');
     console.log('q4 right!');
     counter++;
-  } else {
+6  } else {
     alert('WRONG!');
     console.log('q4 wrong!');
   }
