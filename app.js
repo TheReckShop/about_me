@@ -1,15 +1,17 @@
 'use strict';
-var userName = flase;
-var test = 'userName' = prompt('Greetings!!! What is your name?'){
+var userName = false;
+
+for (userName = false; {('Greetings!!! What is your name?'){
 alert('Welcome ' + userName + ', glad you\'re here!');
 function intro() = for (var userName != true)
 alert('sorry bro try again!)
 break;
+};
  else {
 alert('Welcome ' + userName + ', glad you\'re here!');
 };
 var counter = 0;
-intro ();  
+
  
 function q1 () alert{var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
   if (answer1 === 'yes' || answer1 === 'y') {
