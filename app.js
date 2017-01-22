@@ -1,21 +1,13 @@
 'use-strict';
+var userName:
 
-
-
-function intro() =
-var userName;
-while (function intro = alert ('Welcome ' + userName + ', glad you\'re here!')
- 
-break;
-};
-else {
-break
-};
 var counter = 0;
-intro();
-
- 
-function q1 () alert{var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
+function name = prompt('Hello what\'s your name?') {
+alert('Welcome ' + name + ', glad you\'re here!');
+userName = name;
+name();       
+       
+function q1 () {var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
   if (answer1 === 'yes' || answer1 === 'y') {
     alert('Right! Well done.');
     console.log('q1 Right!');
