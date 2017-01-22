@@ -1,5 +1,5 @@
 'use strict';
-var username = flase;
+var userName = flase;
 var test = 'userName' = prompt('Greetings!!! What is your name?'){
 alert('Welcome ' + userName + ', glad you\'re here!');
 function intro() = for (var userName != true)
