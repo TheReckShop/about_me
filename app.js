@@ -1,10 +1,9 @@
 'use-strict';
 
 var userName = false;
-function intro = (userName = false) {prompt('Greetings!!! What is your name?')){
-
+while (intro = (userName = false) {prompt('Greetings!!! What is your name?'))
+prompt(var userName != true)
 prompt('Welcome ' + userName + ', glad you\'re here!');
-prompt(function intro() for (var userName != true)
 alert('sorry bro try again!)
 break;
 };
