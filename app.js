@@ -1,9 +1,10 @@
 'use-strict';
-
-var userName = false;
-while (intro = (userName = false) {prompt('Greetings!!! What is your name?'))
-prompt(var userName != true)
+prompt
+var userName = true
 prompt('Welcome ' + userName + ', glad you\'re here!');
+while (intro = (userName = false) {'Welcome ' + userName + ', glad you\'re here!')) prompt('Welcome ' + userName + ', glad you\'re here!'
+;
+
 alert('sorry bro try again!')
 break;
 };
