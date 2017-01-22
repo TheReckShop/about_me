@@ -1,11 +1,10 @@
 'use-strict';
 prompt
-var userName = true
+var userName = true;
 prompt('Welcome ' + userName + ', glad you\'re here!');
-while (intro = (userName = false) {'Welcome ' + userName + ', glad you\'re here!')) prompt('Welcome ' + userName + ', glad you\'re here!'
+while{userName = true) function intro = prompt('Welcome ' + userName + ', glad you\'re here!'
 ;
 
-alert('sorry bro try again!')
 break;
 };
  else {
