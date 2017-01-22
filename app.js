@@ -1,10 +1,10 @@
 'use-strict';
 
 var userName = false;
-for (userName = false); {prompt('Greetings!!! What is your name?')){
+for (userName = false) {prompt('Greetings!!! What is your name?')){
 
-alert('Welcome ' + userName + ', glad you\'re here!');
-function intro() = for (var userName != true)
+prompt('Welcome ' + userName + ', glad you\'re here!');
+prompt(function intro() for (var userName != true)
 alert('sorry bro try again!)
 break;
 };
@@ -12,6 +12,7 @@ break;
 alert('Welcome ' + userName + ', glad you\'re here!');
 };
 var counter = 0;
+intro();
 
  
 function q1 () alert{var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
