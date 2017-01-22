@@ -1,7 +1,7 @@
 'use-strict';
 
 var userName = false;
-for (userName = false) {prompt('Greetings!!! What is your name?')){
+function intro = (userName = false) {prompt('Greetings!!! What is your name?')){
 
 prompt('Welcome ' + userName + ', glad you\'re here!');
 prompt(function intro() for (var userName != true)
