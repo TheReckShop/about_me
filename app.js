@@ -1,14 +1,15 @@
 'use-strict';
-prompt
-var userName = true;
-prompt('Welcome ' + userName + ', glad you\'re here!');
-while{userName = true) function intro = prompt('Welcome ' + userName + ', glad you\'re here!'
-;
 
+
+
+function intro() =
+var userName;
+while (function intro = alert ('Welcome ' + userName + ', glad you\'re here!')
+ 
 break;
 };
- else {
-alert('Welcome ' + userName + ', glad you\'re here!');
+else {
+break
 };
 var counter = 0;
 intro();
