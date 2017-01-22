@@ -1,11 +1,17 @@
 'use strict';
 
-var userName;
-if (if prompt('Greetings!!! What is your name?'){
+
+function intro() {
+for(unsername != true) {
+(userName = prompt('Greetings!!! What is your name?'){
 console.log('OH NO! AHHHHHHHHHHHHH'\
-break;   
+break;
+ else {
 alert('Welcome ' + userName + ', glad you\'re here!');
+};
 var counter = 0;
+  
+ 
 function q1 () alert{var answer1 = prompt('Was I born in Kirkland, WA?').toLowerCase();
   if (answer1 === 'yes' || answer1 === 'y') {
     alert('Right! Well done.');
