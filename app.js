@@ -4,7 +4,7 @@ var userName = false;
 while (intro = (userName = false) {prompt('Greetings!!! What is your name?'))
 prompt(var userName != true)
 prompt('Welcome ' + userName + ', glad you\'re here!');
-alert('sorry bro try again!)
+alert('sorry bro try again!')
 break;
 };
  else {
